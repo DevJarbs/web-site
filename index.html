@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="home">
+        <!--Navagation bars-->
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="image/tu3.png" class="logo">
+            </a>
+            <button class="btntog navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsenav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navs" onclick="notif()">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navs" data-bs-toggle="modal" data-bs-target="#aboutmodal">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navs" data-bs-toggle="modal" data-bs-target="#appmodal">APPS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--about modal-->
+    <div class="modal fade" id="aboutmodal" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title">ABOUT US</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                     <div class="row">
+                        <div class="col-12">
+                            <h1><img src="image/tu3.png" alt="" class="abtlogo"> 
+                            <p class="abt">This webpage is made by a group of developers who pursue their dreams and goals in life.
+                              <br>  Made by us and for the future.
+                            </p></h1>
+                           
+                            <img src="image/ako.png" alt="" class="abtus">
+                            <div class="abtxt">
+                                <h2>Developer of Camera App</h2>
+                                <p>Hello!!! my name is Jarvee Vios 19 years old and I'm an app Developer.</p>
+                                <p>I've developed an app called Camera app. <br>
+                                Camera app is a simple app that helps you to look your self by capturing it with your very own device on the browser or device.
+                                 it's a convenient option if you don't want to carry an actual camera in your bag.</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <img src="image/mem.png" alt="" class="abtus">
+                            <div class="abtxt">
+                                <h2>Developer of Guess the hidden word</h2>
+                                <p>Hello!!! my name is Rey Ann Balo 21 years old and I'm an app Developer.</p>
+                                <p>I've developed an app called Guess the hidden word. 
+                                  <br>  Guess the hidden word is an app that you can have fun to play with by guessing words.</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <img src="image/mem1.png" alt="" class="abtus">
+                            <div class="abtxt">
+                                <h2>Developer of KnowYourAge App</h2>
+                                <p>Hello!!! my name is Nathalie 20 years old and I'm an app Developer.</p>
+                                <p>I've developed an app called KnowYourAge App. 
+                                  <br>  it's an app that can accurately caculate your age.</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <img src="image/mem2.png" alt="" class="abtus">
+                            <div class="abtxt">
+                                <h2>Developer of Notes</h2>
+                                <p>Hello!!! my name is Katrina Cabanag 20 years old and I'm an app Developer.</p>
+                                <p>I've developed an app called Notes. 
+                                  <br>  It's a simple app where you can add and delete notes.</p>
+                            </div>
+                        </div>
+                       
+                        <div class="col-12">
+                            <img src="image/mem3.png" alt="" class="abtus">
+                            <div class="abtxt">
+                                <h2>Developer of Quiz Apps</h2>
+                                <p>Hello!!! my name is Mark John Echavia 22 years old and I'm an app Developer.</p>
+                                <p>I've developed an app called Quiz Apps. 
+                                   <br> This is an app that you can practice answering tests and to review lessons</p>
+                            </div>
+                        </div>
+                        <div class="col-5"></div>
+                     </div>
+                </div>
+                <div class= "modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--apps modal-->
+    <div class="modal fade" id="appmodal" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title">APPS</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                   <div class="col-12">
+                    <h1>Quiz Apps</h1>
+                    <a href="APPS.html"><img src="image/apps(Quiz apps).png" alt="" class="appimg img-fluid"></a>
+                   </div>
+                   <div class="col-12">
+                    <h1>Camera App</h1>
+                    <a href="cameraApp.html"><img src="image/cameraApp.jpg" alt="" class="appimg img-fluid"></a>
+                   </div>
+                   <div class="col-12">
+                    <h1>KnowYourAge App</h1>
+                    <a href="kya.html"><img src="image/apps(kya).png" alt="" class="appimg img-fluid"></a>
+                   </div>
+                   <div class="col-12">
+                    <h1>Notes App</h1>
+                    <a href="notes.html"><img src="image/apps(notes).png" alt="" class="appimg img-fluid"></a>
+                   </div>
+                   <div class="col-12">
+                    <h1>Guess the word App</h1>
+                    <a href="guessWord.html"><img src="image/apps(guessWord).png" alt="" class="appimg img-fluid"></a>
+                   </div>
+                </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="image/weare.png" alt="" class="wearetxt">
+        <img src="image/members.png" alt="" class="group">   
+    </div>
+        <div class="carousel slide carousel" id="members" data-bs-touch="false">
+            <div class="carousel-indicators">
+                <button data-bs-target="#members" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#members" data-bs-slide-to="1"></button>
+                <button data-bs-target="#members" data-bs-slide-to="2"></button>
+                <button data-bs-target="#members" data-bs-slide-to="3"></button>
+                <button data-bs-target="#members" data-bs-slide-to="4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/ako.png" alt="1" class="d-block m-auto">
+                    <div class="carousel-caption">
+                        <h2>Developer of Camera App</h2>
+                                <p>Hello!!! my name is Jarvee Vios 19 years old and I'm an app Developer.</p>
+                                <p>I've developed an app called Camera app. <br>
+                                Camera app is a simple app that helps you to look your self by capturing it with your very own device on the browser or device.
+                                 it's a convenient option if you don't want to carry an actual camera in your bag.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/mem.png" alt="2" class="d-block m-auto">
+                    <div class="carousel-caption">
+                        <h2>Developer of Guess the hidden word</h2>
+                                <p>Hello!!! my name is Rey Ann Balo 21 years old and I'm an app Developer.</p>
+                                <p>I've developed an app called Guess the hidden word. 
+                                  <br>  Guess the hidden word is an app that you can have fun to play with by guessing words.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/mem1.png" alt="3" class="d-block m-auto">
+                    <div class="carousel-caption">
+                        <h2>Developer of KnowYourAge App</h2>
+                        <p>Hello!!! my name is Nathalie 20 years old and I'm an app Developer.</p>
+                        <p>I've developed an app called KnowYourAge App. 
+                            it's an app that can accurately caculate your age.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/mem2.png" alt="4" class="d-block m-auto">
+                    <div class="carousel-caption">
+                        <h2>Developer of Notes</h2>
+                        <p>Hello!!! my name is Katrina Cabanag 20 years old and I'm an app Developer.</p>
+                        <p>I've developed an app called Notes. 
+                            It's a simple app where you can add and delete notes.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/mem3.png" alt="5" class="d-block m-auto">
+                    <div class="carousel-caption">
+                        <h2>Developer of Quiz Apps</h2>
+                        <p>Hello!!! my name is Mark John Echavia 22 years old and I'm an app Developer.</p>
+                        <p>I've developed an app called Quiz Apps. 
+                            This is an app that you can practice answering tests and to review lessons</p>
+                    </div>
+                </div>
+            </div>
+          
+            <!--prev btn-->
+            <button class="carousel-control-prev" data-bs-target="#members" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <!--next btn-->
+            <button class="carousel-control-next" data-bs-target="#members" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+</section>
+    <script src="Js/index.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

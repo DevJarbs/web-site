@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/camera.css">
+    <title>Simple Camera App</title>
+</head>
+<body>
+    <a href="index.html" class="bck">Back</a>
+<div class="container">
+    <div id="camera-container">
+        <video id="video" autoplay></video>
+        <div id="image-preview-container"></div>
+        <button class="btn" id="capture-btn">
+            <i class="fas fa-camera"></i>
+        </button>
+        <button id="reset-btn">Reset</button>
+        <button id="save-btn" style="display: none;">Save</button>
+        <button id="disable-camera-btn">Disable Camera</button>
+        <button id="enable-camera-btn" style="display: none;">Enable Camera</button>
+        <p id="camera-off-message">Camera is disabled. Please enable it to use the app.</p>
+    </div>
+</div>
+   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="Js/camera.js"></script>
+</body>
+</html>
