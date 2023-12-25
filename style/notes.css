@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(img/bg011.jpg);
+   
+}
+
+.title{
+    text-align: center;
+    color:#000080;
+    font-family: fantasy;
+    margin-top: 2%;
+    padding: 5px;
+    border:double;
+    border-radius: 35px;
+}
+
+.main-container{
+    width: 95%;
+    margin: auto;
+}
+
+.sub-container1{
+    margin-left: 5%;
+    margin-top: 1%;
+    font-family: fantasy;
+}
+.sub-container2{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin-top:20px;
+    margin-left: 5%;
+}
+.sub-container3{
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+svg{
+    color: #191970;
+    width: 25px;
+    height: 20px;
+}
+
+#CheckIcon{
+    position: absolute;
+    right: 18%;
+    top:10%;
+}
+#DeleteIcon{
+    position: absolute;
+    right: 10%;
+    top:10%;
+}

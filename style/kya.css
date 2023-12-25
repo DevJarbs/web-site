@@ -1,0 +1,48 @@
+body {
+    background: #3d0099;
+    padding: 20px;
+    font-family: Helvetica;
+  }
+    
+  #banner-message {
+    background: #b380ff;
+    border-radius: 4px;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    transition: all 1s;
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  input{
+    background: #e0ccff;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 20px;
+  }
+    
+  button {
+    background: #751aff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 14px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+    
+  #banner-message.alt {
+    background: #0084ff;
+    color: #fff;
+    margin-top: 40px;
+    width: 200px;
+  }
+    
+  #banner-message.alt button {
+    background: #fff;
+    color: #000;
+  }
+  
+a{text-decoration: none;}  
+.bck:hover{background-color: white;}
